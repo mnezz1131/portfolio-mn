@@ -1,0 +1,11 @@
+.portfolio-wrapper{
+  display:flex;
+justify-content: center;
+/* align-items:flex-start; */
+}
+
+.portfolio-container{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}

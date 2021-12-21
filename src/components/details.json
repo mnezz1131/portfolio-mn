@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Vinyl Vault",
+    "summary": " Vinyl Vault is an application created for the avid vinyl enthusiast to catalog their precious record collection. ",
+    "tools":  " React, Ruby, Rails, Postgresql",
+    "image": "https://i.imgur.com/XFzgMIo.png",
+    "gitHub": "https://github.com/mnezz1131/Vinyl-Vault",
+    "deploy": " https://vinyl-vault.netlify.app/"
+  },
+  {
+    "id": 2,
+    "name": "Tether",
+    "summary" :" Tether is an application dedicated to high-performance, luxury, electric sports cars or supercars. ",
+    "tools":  " React, Node, Express, MongoDB",
+    "image": "https://i.imgur.com/IEiZVuy.png",
+    "gitHub": "https://github.com/DarrylFalls/Tether",
+    "deploy": "https://tether-supercars.netlify.app"
+  },
+  {
+    "id": 3,
+    "name": "Drink Are On Us",
+    "summary": " An App exploring building your own drinks, breweries across America and wine scores and what they mean.",
+    "tools":  " React, Node, Mongo, Express",
+    "image": "https://i.imgur.com/ra6y0pw.png?1",
+    "gitHub": "https://github.com/mnezz1131/Drinks-Are-On-Us",
+    "deploy": " https://drinks-on-us.herokuapp.com/"
+  }
+ 
+]
