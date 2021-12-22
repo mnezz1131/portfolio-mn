@@ -5,11 +5,12 @@
 .jumbotron {
   background-image: url(../../backgrounds/austin.jpeg);
   background-size: cover;
+  height:40vh;
 }
 
 .jumbo-h1 {
   font-family: "Cinzel Decorative";
-  font-size: 105px;
+  font-size: 8vw;
   font-weight: 700;
   color: lavender;
   text-shadow: -1px 2px 0 #500, 1px 1px 0 #600, -1px -2px 0 #400,
@@ -18,10 +19,33 @@
 
 .jumbo-h2 {
   font-family: "Cinzel Decorative";
-  font-size: 45px;
+  font-size: 3.2vw;
   font-weight: 700;
   color: lavender;
   text-shadow: -1px 2px 0 #500, 1px 1px 0 #600, -1px -2px 0 #400,
   -1px -1px 0 #100;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .jumbotron {
+      height:20vh;
+
+    }
+}
+
+
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .jumbotron {
+      height:20vh;
+    }
+
 }
 

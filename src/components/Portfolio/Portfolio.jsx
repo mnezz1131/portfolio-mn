@@ -19,7 +19,7 @@ function Portfolio() {
               tools={card.tools}
               summary={card.summary}
               image={card.image}
-              github={card.gitHub}
+              gitHub={card.gitHub}
               deploy={card.deploy}
             />
           ))}

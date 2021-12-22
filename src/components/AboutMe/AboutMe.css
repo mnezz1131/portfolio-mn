@@ -10,5 +10,39 @@ text-align: justify;
 }
 .about-me-contact{
   font-size: 25px;
-  margin: 0 0 0 155px;
+
+}
+
+h1{
+  font-family: "Cinzel Decorative";
+  text-shadow:
+  -1px -1px 0 #fff,  
+   1px -1px 0 #fff,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    h1{
+      font-size: 30px;
+      }
+      .about-me-text{
+        font-size: 12px;
+        padding: 5px;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+h1{
+font-size: 35px;
+}
+.about-me-text{
+  font-size: 14px;
+}
 }

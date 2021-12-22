@@ -1,11 +1,26 @@
+.portfolio-title-div{
+margin-top:30px;
+margin-bottom:40px;
+}
 .portfolio-wrapper{
   display:flex;
 justify-content: center;
-/* align-items:flex-start; */
+
 }
 
 .portfolio-container{
   display: flex;
   flex-direction: row;
   text-align: left;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .portfolio-container{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
 }
