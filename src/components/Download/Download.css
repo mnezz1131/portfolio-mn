@@ -1,0 +1,37 @@
+.download-div{
+  margin-top:15px;
+  margin-bottom:35px;
+}
+:root {
+  --mainColor: #232225;
+}
+.download_link{
+  font-size: 2vw;
+  font-family: Fondamento;
+ border-style: double;
+ border-radius: 5px;
+ padding: 0 8px 0 8px;
+ background-color: green;
+
+  background:
+  linear-gradient(
+    to bottom,
+    var(--mainColor) 0%,
+    var(--mainColor) 100%
+  );
+background-position: 0 100%;
+background-repeat: repeat-x;
+background-size: 4px 4px;
+color: rgba(39, 38, 38);
+text-decoration: none;
+transition: background-size .2s;
+}
+
+a:hover {
+background-size: 4px 70px;
+color: rgb(219, 214, 214);
+}
+
+
+
+

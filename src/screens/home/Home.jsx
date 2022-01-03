@@ -1,16 +1,20 @@
 import React from "react";
-import AboutMe from "../../components/AboutMe/AboutMe.jsx";
-import Hero from "../../components/Hero/Hero.jsx";
-import Portfolio from "../../components/Portfolio/Portfolio.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import Contact from "../../components/Contact/Contact.jsx"
+import Navbar from "../../components/Navbar/Navbar.jsx";
+import "./Home.css";
+
 function Home() {
   return (
     <div>
-      <Hero />
-      <AboutMe />
-      <Portfolio />
-      <Contact />
+      <Navbar />
+      <div className="home-background-image">
+        <h1 className="home-title">Mike Nezzer</h1>
+        <br></br>
+        <h2 className="home-desc">
+          Full Stack Developer &#9734; Accountant &#9734; Musician
+        </h2>
+      </div>
+
       <Footer />
     </div>
   );

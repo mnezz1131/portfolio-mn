@@ -1,12 +1,14 @@
 import React from "react";
 import Card from "../Card/Card.jsx";
 import details from "../details.json";
+import Layout from "../Layout/Layout.jsx";
 import "./Portfolio.css"
 
 function Portfolio() {
   const cards = details;
 
   return (
+    <Layout>
     <div className="portfolio-title-div">
       <h1 className="portfolio-title">Portfolio</h1>
       <div className="portfolio-wrapper">
@@ -25,7 +27,8 @@ function Portfolio() {
           ))}
         </div>
       </div>
-    </div>
+      </div>
+      </Layout>
   );
 }
 

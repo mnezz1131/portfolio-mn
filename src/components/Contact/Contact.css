@@ -8,7 +8,13 @@
   justify-content: center;
   align-items: center;
 }
+.contact-title{
+  font-size: 3vw;
+}
 
+.contact-p{
+  font-size: 1.5vw;
+}
 
 @media only screen 
   and (min-device-width: 375px) 

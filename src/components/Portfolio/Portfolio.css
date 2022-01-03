@@ -1,6 +1,6 @@
 .portfolio-title-div{
 margin-top:30px;
-margin-bottom:40px;
+margin-bottom:100px;
 }
 .portfolio-wrapper{
   display:flex;
@@ -12,6 +12,9 @@ justify-content: center;
   display: flex;
   flex-direction: row;
   text-align: left;
+}
+.card{
+  padding: 10px 10px 10px 10px;
 }
 
 @media only screen 

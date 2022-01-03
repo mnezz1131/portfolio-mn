@@ -5,7 +5,9 @@
 .jumbotron {
   background-image: url(../../backgrounds/austin.jpeg);
   background-size: cover;
+  width:100%;
   height:40vh;
+  margin-top: 50px;
 }
 
 .jumbo-h1 {
