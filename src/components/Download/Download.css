@@ -32,6 +32,15 @@ background-size: 4px 70px;
 color: rgb(219, 214, 214);
 }
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.download_link{
+  font-size: 30px;
+}
+}
+
 
 
 

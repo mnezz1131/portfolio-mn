@@ -9,7 +9,7 @@
   box-sizing: border-box;
   height: calc(100vh);
   flex-grow: 1;
-  margin: 50px 0 0 0;
+  margin: 55px 0 0 0;
   overflow: hidden;
 
 }
@@ -30,4 +30,22 @@
   color: lavender;
   text-shadow: -1px 2px 0 #500, 1px 1px 0 #600, -1px -2px 0 #400,
   -1px -1px 0 #100;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.home-background-image{
+  margin-top: 40px;
+}
+
+.home-title{
+  font-size: 16vw;
+  margin-top: 100px;
+}
+.home-desc{
+  font-size: 5vw;
+}
+
 }

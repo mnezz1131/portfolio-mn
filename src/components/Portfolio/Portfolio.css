@@ -26,4 +26,12 @@ justify-content: center;
       flex-direction: column;
       text-align: left;
     }
+    
+    .portfolio-title{
+      font-size:45px;
+    }
+
+    .card{
+      width:380px;
+    }
 }

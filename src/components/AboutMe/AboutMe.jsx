@@ -7,7 +7,7 @@ function AboutMe() {
       <div className="container">
         <div className="row about-me-row-h1">
           <div className="col about-me-col-h1" size="md-12">
-            <h1>About Me</h1>
+            <h1 className = "about-me-title">About Me</h1>
           </div>
         </div>
         <div className="row ">

@@ -4,6 +4,7 @@ import details from "../details.json";
 import Layout from "../Layout/Layout.jsx";
 import "./Portfolio.css"
 
+
 function Portfolio() {
   const cards = details;
 
