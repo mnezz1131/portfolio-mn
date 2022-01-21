@@ -15,7 +15,7 @@ function Portfolio() {
       <div className="portfolio-wrapper">
         <div className="portfolio-container">
           {cards.map((card) => (
-            <Card
+            <Card 
               id={card.id}
               key={card.id}
               name={card.name}

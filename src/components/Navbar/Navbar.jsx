@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-// import { NavHashLink as NavLink } from 'react-router-hash-link';
 import "./Navbar.css"
 function Navbar() {
   return (
@@ -17,7 +16,7 @@ function Navbar() {
       </li>
   
       <li>
-        <NavLink className="navlink" to="/contact">Contact Information</NavLink>
+        <NavLink className="navlink" to="/contact">Contact</NavLink>
         </li>
         </div>
     </div>

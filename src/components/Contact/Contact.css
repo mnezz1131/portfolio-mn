@@ -6,13 +6,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .contact-title{
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 
 .contact-p{
-  font-size: 1.5vw;
+  font-size: 1.9vw;
+  font-family: 'Hind Madurai', sans-serif;
+}
+.about-me-contact{
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 2.5vw;
 }
 
 @media only screen 

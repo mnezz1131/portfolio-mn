@@ -7,18 +7,17 @@ function Card(props) {
         <img className="card-image" alt={props.name} src={props.image} />
       </div>
       <div className="img-content">
-        <ul>
-          <li>
+        <ul className="card-ul-details">
+          <li className="card-li-details">
             <strong>Project: </strong>
             {props.name}{" "}
           </li>
-
-          <li>
+          <li className="card-li-details">
             <strong>
               <a href={props.gitHub}>Git Hub Link</a>
             </strong>{" "}
           </li>
-          <li>
+          <li className="card-li-details">
             <strong>
               {" "}
               <a href={props.deploy} target="_blank" rel="noopener noreferrer">
@@ -26,11 +25,11 @@ function Card(props) {
               </a>
             </strong>{" "}
           </li>
-          <li>
+          <li className="card-li-details">
             <strong>Tools:</strong>
             {props.tools}
           </li>
-          <li>
+          <li className="card-li-details">
             <strong>Summary:</strong>
             {props.summary}
           </li>

@@ -12,6 +12,7 @@ justify-content: center;
   display: flex;
   flex-direction: row;
   text-align: left;
+  font-family: 'Hind Madurai', sans-serif;
 }
 .card{
   padding: 10px 10px 10px 10px;
